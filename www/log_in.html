@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html lang="pl" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8"/>        
+        <title>Logowanie</title>
+        <script type="text/javascript" src="./js/script_log_in.js" charset="utf-8"></script>
+        <script type="text/javascript" src="./js/script_joint.js" charset="utf-8"></script>
+        <script type="text/javascript" src="./js/script_change_theme.js" charset="utf-8"></script>
+        <script src="./js/jquery-3.2.1.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    </head>
+<body>
+    <div id="container">
+        <div id="big_top">
+            <div class="top">
+                <div class="divs_in_top">
+                    <button id="ok_button" class="white_text_button">Ok</button>
+                </div>
+                <div class="divs_in_top">
+                    <p id="nick_top class="center white_text""></p>
+                </div>
+                <div class="divs_in_top">
+                    <button id="options_button" class="white_text_button float_right">Opcje</button>
+                </div>
+            </div>
+            <div id="menu_options" class="menu_options">
+                <div class="padding10 bottom_border"><button class="white_button" id="log_in">Zaloguj</button></div>
+                <div class="padding10 bottom_border"><button class="white_button" id="sign_in">Zarejestruj</button></div>
+                <div class="padding10 bottom_border"><button class="white_button" id="show_notes">Notatki</button></div>
+                <div class="padding10 bottom_border"><button class="white_button" id="themes">Motywy</button></div>
+                <div class="padding10"><button class="white_button" id="informations">Informacje</button></div>
+            </div>
+        </div>
+            <div id="zarejestruj_zbiornik" class="margintop">
+                <div>
+                    <table class="marginauto">
+                        <tr>
+                            <td><p>Login:</p></td>
+                            <td><input type="text" id="login" name="login"></td>
+                        </tr>
+                        <tr>
+                            <td><p>Hasło:</p></td>
+                            <td><input type="password" id="haslo" name="haslo"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="center">
+                    <button id="log_in_g_button" class="green_button" name="log_in_g_button">Zaloguj</button>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,147 @@
+﻿body
+{
+    width:100%;
+    margin: 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+    overflow:hidden;
+    background-color: #fafcf6;
+}
+button:focus {outline: none;}
+textarea
+{   
+    margin: 20px auto 20px auto;
+    width:80%;
+    height:300px;
+}
+.added_note
+{   
+    float:left;
+    border-radius: 5px;
+    border-style:solid;
+    border-width:1px;
+    border-bottom-width:2px;
+    border-right-width:2px;
+    border-color:rgb(229, 229, 229);
+    background-color:white;
+    margin: 5px;
+    padding: 10px 10px 10px 10px;
+    color:#282727;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:20px;
+    text-align:left;
+    width:46%;
+    word-wrap:break-word;
+    position:relative;
+    z-index:1;
+}
+#big_top
+{
+    width:100%;
+    position:relative;
+}
+.top
+{
+    height:50px;
+    background-color: #4CAF50;
+}
+.divs_in_top
+{
+    float:left;
+    width:33%;
+}
+.center
+{
+    text-align:center;
+}
+.padding10
+{
+    padding:10px;
+}
+.white_button
+{
+    text-decoration: none;
+    border: none;
+    background-color: rgba(40, 39, 39, 0.00);    
+    font-size:18px;
+}
+.white_text_button
+{
+    background-color: rgba(40, 39, 39, 0.00);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size:20px;
+    margin-top:12px;
+    margin-left:10px;
+}
+.green_button
+{
+    height:50px;
+    width:50%;
+    margin-bottom:15%;
+    margin-top:10%;
+    background-color: #4CAF50;
+    border-radius:10px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size:25px;
+}
+.theme_button
+{
+    height:40px;
+    width:50%;
+    margin-top: 10%;
+    border-radius:10px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size:25px;
+}
+.float_right
+{
+    float:right;
+}
+#container_notes
+{
+    padding:5px;
+    position:relative;
+    z-index:1;
+}
+.menu_options
+{
+    width:130px;
+    background-color: white;
+    position:absolute;
+    right:0;
+    z-index:2;    
+    box-shadow: -5px 5px 10px rgb(157, 157, 157);
+    display:none;
+}
+.show
+{
+    display:block;
+}
+.bottom_border
+{
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color:rgb(229, 229, 229);
+}
+.marginauto
+{   
+    margin-left:auto;
+    margin-right:auto;
+}
+.margintop
+{
+    margin-top:20%;
+}
+.white_text
+{
+    color: white;
+}
+

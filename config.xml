@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id = "aplikacjaUzyt"
+        version = "1.0.0" >
+  <name>Moje notatki</name>
+  <description>Add, edit, synchronize your notes on all devices.</description>
+  <author href="http://mypersonalwebsite.com" email="kajetankuzma@gmail.com">
+    Kajetan Kuzma
+  </author>
+  <platform name="android" />
+  <icon src="./www/img/icon.png" />
+  <plugin name="cordova-plugin-screen-orientation" />
+  <plugin name="cordova-plugin-whitelist" spec="1" /> 
+  <preference name="orientation" value="portrait" />
+  <allow-navigation href="https://alerion09.nazwa.pl/*" />
+  <allow-intent href="https://alerion09.nazwa.pl/*" />
+  <access origin="https://alerion09.nazwa.pl/*" />
+  
+</widget>
